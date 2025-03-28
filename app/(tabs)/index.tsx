@@ -21,10 +21,10 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
+        <ThemedText type="subtitle">Primeiro passo: Testar</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
+          Edite <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> para ver mudanças.
+          Pressione{' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: 'cmd + d',
@@ -32,22 +32,22 @@ export default function HomeScreen() {
               web: 'F12'
             })}
           </ThemedText>{' '}
-          to open developer tools.
+          para abrir ferramentas do desenvolvedor.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
+        <ThemedText type="subtitle">Segundo passo: Explorar</ThemedText>
         <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
+          Aperte o botão Explore para aprender mais sobre o que está incluído neste app inicial.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <ThemedText type="subtitle">Terceiro passo: Comece do zero</ThemedText>
         <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
+          Quando estiver pronto, execute{' '}
+          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> para conseguir um diretório de{' '}
+          <ThemedText type="defaultSemiBold">app</ThemedText> novo. Isto moverá o diretório do{' '}
+          <ThemedText type="defaultSemiBold">app</ThemedText> para{' '}
           <ThemedText type="defaultSemiBold">app-example</ThemedText>.
         </ThemedText>
       </ThemedView>
